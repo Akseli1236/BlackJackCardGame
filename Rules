@@ -1,0 +1,12 @@
+Jokaiselle pelaajalle ja jakajalle jaetaan aluksi 2 korttia. Kun on pelaajan
+vuoro, hän voi valita ottaako uuden kortin(HIT) vai antaako vuoron seuraavalle
+pelaajalle(STAND) tai jakajalle jos on viimeinen pelaaja. Pelin voittaa se pelaaja,
+jolla on suurin käsi, joka on suurempi kuin jakajalla, ja se on 21 tai alle. Jos
+pelaajan ja jakajan kädet ovat yhtä suuret, pelaaja voittaa vain, jos summa on 21.
+
+Korttien arvo on niiden nimellisarvo tai kuvakorttien suhteen 10. Ässä voi olla
+joko 1 tai 11 riippuen tilanteesta. Ässän arvo valiutuu sen mukaan kaatuisiko
+käsi, jos ässän arvo olisi 11. Tällöin se on 1.
+
+Eli pelin voittaa se pelaaja, jolla on suurin käsi, joka ei mene yli 21
+ja jakajan käsi on pienempi, kuin pelaajan käsi.
